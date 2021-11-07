@@ -1,17 +1,15 @@
 <?php
-
+//variavel de conexão
 $dbHost = 'Localhost';
 $dbUsername = 'root';
-$dbPassword = 'root';
+$dbPassword = '';
 $dbName = 'formulario-php';
 
+// conexão dos dados
 $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
-
-  // if($conexao->connect_errno)
-  // {
-  //     echo "Erro";
-  // }
-  // else
-  // {
-  //     echo "Conexão efetuada com sucesso";
-  // }
+// verificação de conexão
+// if ($conexao->connect_errno) {
+//   echo "Erro";
+// } else {
+//   echo "Conexão efetuada com sucesso";
+// }
