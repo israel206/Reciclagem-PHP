@@ -8,8 +8,8 @@ $dbName = 'formulario-php';
 // conexão dos dados
 $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 // verificação de conexão
-// if ($conexao->connect_errno) {
-//   echo "Erro";
-// } else {
-//   echo "Conexão efetuada com sucesso";
-// }
+if ($conexao->connect_errno) {
+  echo "Erro";
+} else {
+  echo "Conexão efetuada com sucesso";
+}
