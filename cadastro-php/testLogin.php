@@ -1,5 +1,4 @@
 <?php
-
 //LOGICA VERIFICAÇÃO DOS DADOS DE LOGIN
 
 // Inicialização da sessão 
